@@ -5,7 +5,7 @@ var max = 19,
   startFrom = 0,
   dz = 640,
 
-  // I actually want it to be slower then 60fps
+  // I actually want it to be slower than 60fps
   requestAnimationFrame = function(callback) {
       window.setTimeout(callback, 1000 / 24);
   };
